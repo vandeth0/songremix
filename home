@@ -1,0 +1,6 @@
+<form action="addcm.php" method="post">
+            <input type="text" placeholder="Username" name="uname"><br><br>
+            <input name="comments" type="text" placeholder="Comment Here..." class="form-control"><br> 
+            <input type="hidden" id="dt" name="date">
+            <button type="submit" class="btn btn-primary">Post</button>
+        </form>
